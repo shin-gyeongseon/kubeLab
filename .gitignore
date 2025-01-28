@@ -1,0 +1,4 @@
+init-cluster/.vagrant
+init-cluster/master-ip
+init-cluster/node-token
+init-cluster/ubuntu-bionic-*
