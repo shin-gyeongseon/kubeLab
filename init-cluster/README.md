@@ -5,6 +5,10 @@
 
 워커 노드는 CPU 2개, 메모리 4GB로 설정했습니다.
 
+## 사전작업
+- Oracle VirtualBox를 [다운로드](https://www.virtualbox.org/wiki/Downloads)해야 합니다.  
+- Vagrant도 [다운로드](https://developer.hashicorp.com/vagrant/install?product_intent=vagrant)해야 합니다.  
+
 ## 프로젝트 구조 및 스펙
 - **Master Node**  
   - CPU: 2  
@@ -42,8 +46,10 @@
 ## 주의사항
 
 **네트워크 구성**
-- VirtualBox의 기본 NAT 네트워크(10.0.2.15)는 통신되지 않을 수 있음
+- VirtualBox의 기본 NAT 네트워크(ex.10.0.2.15)는 통신되지 않을 수 있음
 - 호스트 전용 네트워크나 브리지 네트워크 사용을 권장
+
+`⚠️클러스터가 정상적으로 배포되지 않았다면 아래를 참고하여 수동으로 k3s 배포`
 
 **마스터 노드 설정**
 ```bash
