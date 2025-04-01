@@ -17,7 +17,3 @@ KubeLab은 로컬 환경에서 Kubernetes 기반의 다양한 CNCF(Cloud Native 
 ### Helm
 
 `helm` 폴더에는 다양한 CNCF 스택들을 Kubernetes 클러스터에 쉽게 배포할 수 있는 Helm 차트들 위치
-
-## 연락처
-
-문의사항이나 제안이 있으시면 이슈를 생성하거나 다음 이메일로 연락 주세요: tlsrid1119@gmail.com
